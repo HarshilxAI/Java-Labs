@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class HalfPyramidwithnumber {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
-            System.out.print("Enter the number of n : ");
+            System.out.print("Enter the value of n : ");
             int n = sc.nextInt();
 
             for(int i=1 ; i<=n ; i++) {
@@ -18,3 +18,4 @@ public class HalfPyramidwithnumber {
 
     }
 }
+
