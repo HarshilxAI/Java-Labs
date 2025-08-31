@@ -7,9 +7,9 @@ public class SolidRectangle {
 
         try (Scanner sc = new Scanner(System.in)) {
 
-            System.out.print("Enter number of rows : " );
+            System.out.print("Enter number of colums : ");
             int a = sc.nextInt();
-            System.out.print("Enter number of colums : " );
+            System.out.print("Enter number of rows " ) ;
             int b = sc.nextInt();
 
             for (int i=1; i<=a; i++ ){
@@ -17,7 +17,7 @@ public class SolidRectangle {
                 for ( int j=1 ; j <=b;j++ ) {
                     System.out.print("*");
                 }
-                
+
                 System.out.println("*");
             }
         }
